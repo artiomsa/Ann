@@ -1,0 +1,58 @@
+@import "reset.css";
+
+@font-face {
+font-family: "street";
+src: url("../fonts/street.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+body{
+  overflow: hidden;
+  background-color: #FFD600;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+}
+
+h1{
+  color: #1900B6;
+  font-family: "street";
+  font-size: 35vh;
+  position: absolute;
+  bottom: 33vh;
+  text-transform: uppercase;
+}
+
+a
+{
+  color: #3300FF;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
+
+nav {
+  height: 8vh;
+}
+
+.text {
+  height: 8vh;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.textmenu {
+  margin-right: 3vw;
+}
